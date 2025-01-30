@@ -26,5 +26,7 @@ public class ElectTest {
 
         // Закрытие браузера
         driver.quit();
+
+        System.out.println("Проверка GIT");
     }
 }
