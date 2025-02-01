@@ -28,6 +28,6 @@ public class ElectTest {
         driver.quit();
 
         System.out.println("Проверка GIT");
-        System.out.println("Проверка GIT2");
+        System.out.println("Проверка GIT21");
     }
 }
