@@ -31,5 +31,6 @@ public class ElectTest {
         System.out.println("Проверка GIT2");
         System.out.println("Проверка GIT3");
         System.out.println("Проверка GIT4");
+        System.out.println("Проверка GIT21");
     }
 }
