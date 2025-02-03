@@ -28,6 +28,7 @@ public class ElectTest {
         driver.quit();
 
         System.out.println("New_test");
-        System.out.println("New_test2");
+        System.out.println("New_test");
+        System.out.println("New_test");
     }
 }
