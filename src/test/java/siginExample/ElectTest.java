@@ -18,7 +18,7 @@ public class ElectTest{
     public void testCoggleTitle() {
         driver.get("https://github.com/");
         System.out.println("Найдена страница: " + driver.getTitle());
-        System.out.println("git2");
+        System.out.println("git5");
     }
 
     @BeforeMethod
