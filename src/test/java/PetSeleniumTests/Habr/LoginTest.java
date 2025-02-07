@@ -26,6 +26,7 @@ public class LoginTest {
 
     @Test
     public void loginTest() {
+        loginPage.fillLogin();
         loginPage.clickLoginBtn();
     }
 
