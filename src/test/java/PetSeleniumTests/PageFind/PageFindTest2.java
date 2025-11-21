@@ -33,11 +33,11 @@ public class PageFindTest2 {
         driver.findElement(By.name("commit")).click();
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-        WebElement otpInput = wait.until(
-                ExpectedConditions.visibilityOfElementLocated(By.id("otp"))
+        WebElement profileMenu = wait.until(
+                ExpectedConditions.visibilityOfElementLocated(By.xpath("//summary[@aria-label='View profile and more']"))
         );
 
-        Assert.assertTrue(otpInput.isDisplayed(), "Страница подтверждения с кодом не появилась.");
+        Assert.assertTrue(profileMenu.isDisplayed(), "Не удалось подтвердить успешную авторизацию на GitHub.");
     }
 
     @BeforeMethod
